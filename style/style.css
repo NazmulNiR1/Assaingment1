@@ -256,69 +256,7 @@ margin-bottom:0px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;}
-  .holyday {
-    text-align: center;
-    margin-bottom: 100px;
-}
-.holyday-text{
 
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-}
-
-
-.gift-img {cursor: pointer;
-  transition-duration: 0.4s;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-}
-.gift-img:hover {
-  enable-background: 30%;
- }
-
-.best-gift {
-  width: 1320px;
-  height: 600px;
-  /* text-align: center; */
-  margin: auto;
-  margin-top: 100px;
-  margin-bottom: 600px;
-}
-
-.input-email {
-  width: 648px;
-  height: 72px;
-  border-radius: 50px;
-  color: rgba(7, 2, 17, 0.3);
-  text-align: center;
-  font-size: 30px;
-  font-weight: 400;
-    border: none}
-.subscribe {
-  width: 1320px;
-  height: 600px;
-  border-radius: 20px;
-  background: rgba(255, 0, 0, 0.05);
-  margin: auto;
-  margin-bottom: 130px;
-}
-.sub-btn {
-  width: 210px;
-  height: 72px;
-  border-radius: 0px 50px 50px 0px;
-  background: #f00;
-  color: #fff;
-  text-align: center;
-  font-size: 20px;
-  font-weight: 600;
-  position: relative;
-  right: 150px;
-  bottom: 4px;
-  border: none;
-}
 .font6{
   color: #F00;
 font-family: Inter;
@@ -353,11 +291,110 @@ font-style: normal;
 font-weight: 400;
 line-height: 32px;
 }
-.mail-part {
+/* 50% image section  */
+.holyday-discount-img {
+  display: flex;
+  background-image: url(../img/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+}
+.box-img {
+    height: 797px;
+    width:669px;
+    margin-top: 0px;
+    margin-left: 10px;
+  }
+.dis-50 {
+  position: relative;
+  right: 170px;
+  z-index: 1;
+}
+.lady-img {
+  width: 429px;
+height: 433px;
+flex-shrink: 0;
+margin-right: 0px;
+margin-left: 212px;
+margin-top: -60px;
+  border-radius: 0px 0px;
+  background: url(../img/Rectangle\ 1.png), lightgray 0px / 100% no-repeat;
+}
+.holyday {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.holyday-font h4 {
+  color: #070211;
+  font-size: 24px;
+margin-bottom: 5px;
+}
+.holyday-font h1 {
+  margin-top: 0px;
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+/* items */
+
+.best-item {
+  width: 1320px;
+  height: 600px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 600px;
+}
+.item-img {cursor: pointer;
+  transition-duration: 0.4s;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.item-img:hover {
+border-radius: 300px;
+ }
+/* newsleter */
+ .input-email {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+    border: none}
+.sub {
+  width: 1320px;
+  height: 600px;
+  border-radius: 20px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: auto;
+  margin-bottom: 130px;
+}
+.sub-btn {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  right: 150px;
+  bottom: 4px;
+  border: none;
+}
+.mail-section {
   text-align: center;
   padding-top: 80px;
 }
-.first {
+/* footer */
+.first-sec {
   display: flex;
   gap: 100px;
   justify-content: space-around;
@@ -378,25 +415,18 @@ line-height: 32px;
   background: #070211;
   margin-bottom: 50px;
 }
-.line {
-  width: 1320px;
-  height: 1px;
-  background: rgba(255, 255, 255, 0.15);
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-.third-foot {
+.foot-third {
   display: flex;
   background: #070211;
   justify-content: space-around;
 }
-.foot-left {
+.left-foot {
   color: #fff;
   background: #070211;
   font-size: 30px;
   font-weight: 500;
 }
-.foot-right {
+.right-foot {
   color: #fff;
   font-size: 30px;
   font-weight: 500;
@@ -408,7 +438,7 @@ footer {
   background: #070211;
   background-color: #070211;
 }
-.num {
+.numicon {
   display: block;
   width: 24px;
   height: 24px;
@@ -429,7 +459,7 @@ p {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-.www {
+.wwwicon {
   display: block;
   width: 24px;
   height: 24px;
@@ -444,7 +474,7 @@ h1 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
-.www-web {
+.web {
   position: relative;
   left: 35px;
   bottom: 56px;
@@ -452,50 +482,4 @@ h1 {
   font-size: 24px;
   font-weight: 500;
   line-height: 40px;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-}
-
-/* 50% image section  */
-.holyday-discount-img {
-  display: flex;
-  gap: 100px;
-  background-image: url(../img/Rectangle\ 2.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  border-radius: 16px;
-  width: 1320px;
-  height: 600px;
-  margin: 0 auto;
-}
-.box-img {
-      padding-right: 100px;
-     margin-top:300px ;
-   
-  }
-
-.discount-50 {
-  position: relative;
-  right: 170px;
-  z-index: 1;
-}
-.lady-img {
-  width: 429px;
-height: 433px;
-flex-shrink: 0;
-margin-right: 0px;
-margin-left: 500px;
-margin-top: 0px;
-  border-radius: 0px 0px;
-  background: url(../img/Rectangle\ 1.png), lightgray 0px / 100% no-repeat;
 }
